@@ -1,6 +1,7 @@
 tasks=[]
 
 # Function to display option
+
 def display_menu():
     print("1. Add task")
     print("2. View task")
@@ -42,7 +43,7 @@ def delete_task():
         else:
             print("Invalid task number.")
     except ValueError:
-        print("this Delete to update")
+        print("write the task to Delete ")
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
